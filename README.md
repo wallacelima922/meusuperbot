@@ -40,7 +40,7 @@ Este é um projeto de bot para Telegram desenvolvido em PHP, projetado para vend
 * **Configurar Afiliados:** Permite ativar/desativar o programa globalmente e definir a taxa de comissão padrão via botões. Alterações salvas no BD.
 * **Fechar Painel:** Remove a mensagem do painel de admin do chat.
 
-  <img src="https://i.ibb.co/1HnjCtr/EE6-D951-B-D6-B1-4-B75-B5-D2-47955-D1592-AC.png" alt="EE6-D951-B-D6-B1-4-B75-B5-D2-47955-D1592-AC" border="0">
+  <img src="[https://i.ibb.co/1HnjCtr/EE6-D951-B-D6-B1-4-B75-B5-D2-47955-D1592-AC.png](https://raw.githubusercontent.com/wallacelima922/meusuperbot/refs/heads/main/painel-admin.png)" alt="EE6-D951-B-D6-B1-4-B75-B5-D2-47955-D1592-AC" border="0">
 
 ## Tecnologias Utilizadas
 
