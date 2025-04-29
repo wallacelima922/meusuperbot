@@ -14,7 +14,7 @@ Este é um projeto de bot para Telegram desenvolvido em PHP, projetado para vend
         * **Pagamento com Saldo:** Debita o saldo do usuário, busca um código de recarga disponível no estoque do BD (`recharge_codes`), marca o código como vendido, salva nos detalhes da compra e entrega o código ao usuário.
         * **Pagamento com PIX:** Gera um QR Code/Copia e Cola PIX via API do Mercado Pago e aguarda confirmação.
     * **❓ Ajuda:** Exibe menu com tópicos de ajuda (conteúdo dos tópicos pendente).
-    * **💻 Instalar:** Exibe texto com instruções de instalação (texto pendente).
+    * **💻 Instalar:** Exibe texto com instruções de instalação.
     * **💰 Add Saldo:** Permite ao usuário gerar um PIX para adicionar saldo à sua conta no bot. A confirmação do pagamento via webhook atualiza o saldo automaticamente.
     * **🔙 Cashback:** Exibe o status global (Ativado/Desativado) e a taxa padrão (configuráveis via painel admin e BD). Mostra o total de cashback acumulado pelo usuário. (*Lógica de concessão de cashback implementada apenas para o bônus da primeira compra via PIX*).
     * **👥 Afiliado:**
@@ -23,7 +23,9 @@ Este é um projeto de bot para Telegram desenvolvido em PHP, projetado para vend
         * Exibe Termos de Uso e botão "Aceitar Termos" para ativar o status de afiliado (salva no BD).
         * (*Lógica de rastreamento e concessão de comissão regular pendente; bônus de 1ª compra PIX implementado*).
     * **📜 Minhas Compras:** Exibe o histórico das últimas compras do usuário, incluindo o código de recarga para compras pagas.
-    * **📞 Contato:** Exibe informações de contato (texto pendente).
+    * **📞 Contato:** Exibe informações de contato .
+ 
+      <img src="https://i.ibb.co/DPJH743T/F9-EAAB89-D481-49-CA-9-A28-40-BA2762-CFEB.png" alt="F9-EAAB89-D481-49-CA-9-A28-40-BA2762-CFEB" border="0">
 
 **Administrador:**
 
@@ -37,6 +39,8 @@ Este é um projeto de bot para Telegram desenvolvido em PHP, projetado para vend
 * **Configurar Cashback:** Permite ativar/desativar o sistema globalmente e definir a porcentagem padrão via botões. Alterações salvas no BD.
 * **Configurar Afiliados:** Permite ativar/desativar o programa globalmente e definir a taxa de comissão padrão via botões. Alterações salvas no BD.
 * **Fechar Painel:** Remove a mensagem do painel de admin do chat.
+
+  <img src="https://i.ibb.co/1HnjCtr/EE6-D951-B-D6-B1-4-B75-B5-D2-47955-D1592-AC.png" alt="EE6-D951-B-D6-B1-4-B75-B5-D2-47955-D1592-AC" border="0">
 
 ## Tecnologias Utilizadas
 
